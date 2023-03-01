@@ -1,12 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int i,a,b,t;
-    scanf("%d", &t);
-    for (i = 1; i <= t; i++)
+    iint w;
+    cin >> w;
+    if (w % 2 == 0 && w > 2)
     {
-        scanf("%d%d", &a,&b);
-        printf("%d\n", a+b);
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
     }
     return 0;
 }
